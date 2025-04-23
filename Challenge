@@ -1,0 +1,9 @@
+import sympy
+
+a = int(input("Enter the number to check: "))
+if a == 1:
+    print("It's neither prime nor complex!")
+elif sympy.isprime(a) == True:
+    print("prime number!")
+else:
+    print("complex number!")
